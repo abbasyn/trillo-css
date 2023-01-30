@@ -1,0 +1,16 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "Trillo app",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "author": "Abbas",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "node-sass": "^4.5.3"
+  }
+}
